@@ -11,6 +11,9 @@ html,body{
 
 body{
     background-color: #ede6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .card{
@@ -20,4 +23,27 @@ body{
     border: 1px solid black;
     border-radius: 1.2rem;
     background-color: whitesmoke;
+}
+
+.card-top{
+    background-color: #4071ED;
+    height: 7rem;
+    border-top-left-radius: 1.2rem;
+    border-top-right-radius: 1.2rem;
+   position: relative;  
+ 
+}
+
+.profile-img{
+    position: absolute;
+    top: 2.2rem;
+    margin:auto 35%;
+}
+.profile-img img{
+    border-radius: 25rem;
+    border: 2px solid #4071ED;
+    padding: 0.2rem;
+    width: 6rem;
+    background-color: white;
+    
 }
